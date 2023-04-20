@@ -18,3 +18,14 @@ console.log("Bishop ha scelto:" + generaNumeroCasuale(1, 5));
 
 let sum = choice + generaNumeroCasuale;
 
+function isEven(number) {
+    return number % 2 == 0;
+} 
+
+if (isEven(sum) == "pari") {
+    console.log("La somma dei numeri è pari. Complimenti, hai vinto!");
+} else if (!isEven(sum) == "dispari") {
+    console.log("La somma dei numeri è dispari. Complimenti, hai vinto!");
+} else {
+    console.log("La somma dei numeri non corrisponde alla tua scelta. Hai perso!");
+}
