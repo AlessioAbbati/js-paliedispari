@@ -10,5 +10,7 @@ console.log(numUser);
 
 // genero un numero random per il computer
 
-let numComputer = Math.floor(Math.random() * 5) + 1;
-console.log(numComputer);
+function generaNumeroCasuale(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  console.log(generaNumeroCasuale(1, 5));
