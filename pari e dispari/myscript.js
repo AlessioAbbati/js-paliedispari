@@ -7,3 +7,8 @@ console.log(choice);
 
 let numUser = parseInt(prompt("scegli un numero da 1 a 5"));
 console.log(numUser);
+
+// genero un numero random per il computer
+
+let numComputer = Math.floor(Math.random() * 5) + 1;
+console.log(numComputer);
